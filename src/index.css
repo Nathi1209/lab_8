@@ -1,0 +1,27 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; /* El fondo gris claro que tenías */
+    min-height: 100vh;
+    
+    /* Centramos los componentes en la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espacio entre el cartel y el menú */
+    padding: 20px;
+}
+
+/* Opcional: Estilo para un contenedor si decides agruparlos */
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
